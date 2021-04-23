@@ -15,5 +15,9 @@ public class PetController {
 	//    "inicio"
 	//    "Semana de Inicio de Clases"
 	// 
+	@GetMapping("inicio")
+	String inicio() {
+		return "Semana de inicio de clases";
+	}
 	
 }
