@@ -3,6 +3,11 @@ package pe.edu.tecsup.springpetclinic.controllers;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * 
+ * @author jgomezm
+ *
+ */
 @RestController
 public class PetController {
 
@@ -19,5 +24,6 @@ public class PetController {
 	String inicio() {
 		return "Semana de inicio de clases";
 	}
+	
 	
 }
