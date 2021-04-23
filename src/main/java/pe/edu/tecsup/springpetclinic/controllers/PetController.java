@@ -11,10 +11,10 @@ public class PetController {
 		return "Welcome to Tecsup";
 	}
 	
-	//
-	//    "inicio"
-	//    "Semana de Inicio de Clases"
-	// 
+	/**
+	 *  REST api : "inicio"
+	 * @return
+	 */
 	@GetMapping("inicio")
 	String inicio() {
 		return "Semana de inicio de clases";
