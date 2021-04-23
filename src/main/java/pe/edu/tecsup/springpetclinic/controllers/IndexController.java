@@ -5,15 +5,14 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
-public class OwnerController {
+public class IndexController {
 
-	@GetMapping("/message")
-	String message(Model model) {
+	@GetMapping("/")
+	public String index(Model model) {
 		
-		model.addAttribute("msg", "Message from UTEC");
+		model.addAttribute("title", "PetClinic");
 		
-		return "message";
-		
+		return "index";
 	}
 
 }
